@@ -95,8 +95,8 @@ class _BMDeal3State extends State<BMDeal3> {
               MediaQuery.of(context).size.height * 0.07, // 7% of screen height
           child: ElevatedButton(
             style: ElevatedButton.styleFrom(
-             primary: Colors.brown.shade300,
-              onPrimary: Colors.white,
+             backgroundColor: Colors.brown.shade300,
+               foregroundColor: Colors.white,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10),
               ),

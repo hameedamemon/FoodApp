@@ -247,8 +247,8 @@ Widget ElevatedBtn(BuildContext context,{required String ElevatedBtnTxt,required
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(10),
         ),
-        primary: Colors.brown.shade300,
-        onPrimary: Colors.white,
+        backgroundColor: Colors.brown.shade300,
+        foregroundColor: Colors.white,
 
       ),
       child: Text(ElevatedBtnTxt),

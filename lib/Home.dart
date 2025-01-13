@@ -1,4 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
+// import 'package:carousel_slider/carousel_controller.dart';
+
 import 'package:firstproject/AllRestuarants/restaurant.dart';
 import 'package:firstproject/AppBarPages/DrawerPages/SettingPages/membershipcard.dart';
 import 'package:firstproject/AppBarPages/DrawerPages/SettingPages/wallet.dart';

@@ -106,8 +106,8 @@ class _walletState extends State<wallet> {
           height: MediaQuery.of(context).size.height * 0.06,
           child: ElevatedButton(
             style: ElevatedButton.styleFrom(
-              primary: Colors.brown.shade300,
-              onPrimary: Colors.white,
+              backgroundColor: Colors.brown.shade300,
+               foregroundColor: Colors.white,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10),
               ),

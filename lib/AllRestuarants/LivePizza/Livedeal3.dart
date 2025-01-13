@@ -115,8 +115,8 @@ class _Livedeal3State extends State<Livedeal3> {
           height: MediaQuery.of(context).size.height * 0.07,
           child: ElevatedButton(
             style: ElevatedButton.styleFrom(
-           primary: Colors.brown.shade300,
-              onPrimary: Colors.white,
+           backgroundColor: Colors.brown.shade300,
+               foregroundColor: Colors.white,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10),
               ),
